@@ -1,0 +1,1 @@
+Following ASP.NET Core 6 and Angular - Fifth Edition
