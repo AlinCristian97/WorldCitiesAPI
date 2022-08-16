@@ -14,12 +14,6 @@ namespace WorldCitiesAPI.Data
         {
         }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            base.OnModelCreating(modelBuilder);
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApplicationDbContext).Assembly);
-        }
-
         /// <summary>
         /// The Cities table
         /// </summary>
